@@ -24,17 +24,7 @@ body {
     overflow: hidden;
   }
 
-  .title {
-    text-align: center;
-    font-size: 60px;
-  }
-
-  .title__y {
-    color: white;
-  }
-  .title__nduks {
-    color: blue;
-  }
-  .title__trouble {
-    color: red;
+  main {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
