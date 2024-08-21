@@ -1,0 +1,14 @@
+.title {
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .title__y {
+    color: white;
+  }
+  .title__nduks {
+    color: blue;
+  }
+  .title__trouble {
+    color: red;
+  }
