@@ -1,0 +1,40 @@
+
+:root {
+  --sm-tabletWidth: 640px;
+  --tabletWidth: 768px;
+  --desktopWidth: 1024px;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+  
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(-151deg, pink, violet 39%, blue);
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .title__y {
+    color: white;
+  }
+  .title__nduks {
+    color: blue;
+  }
+  .title__trouble {
+    color: red;
+  }
