@@ -9,6 +9,7 @@
     border-radius: 10px;
     overflow: hidden;
     background-color: #fff;
+    max-height: 45px;
 }
 
 .form:hover {
