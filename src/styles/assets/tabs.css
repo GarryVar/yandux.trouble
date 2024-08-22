@@ -11,3 +11,17 @@
     border: 1px solid #bbb;
     background-color: #fff;
 }
+
+.tab__item--more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    border: none;
+    cursor: pointer;
+}
+
+.tab__item--more::after {
+    content: '+';
+    font-size: 3em;
+}
