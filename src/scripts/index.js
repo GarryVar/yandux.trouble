@@ -3,7 +3,6 @@ function addTabHandler(evt) {
     let newTab = document.createElement('a');
     newTab.href="#";
     newTab.classList.add('tab__item', 'animate__animated', 'animate__fadeIn');
-    console.log(btnMore.parentElement)
     btnMore.insertAdjacentElement('beforebegin', newTab)
 }
 
